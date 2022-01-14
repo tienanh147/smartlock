@@ -1,0 +1,7 @@
+#create a file ".env" with this configuration
+HOST=<host of database> #127.0.0.1:27017
+DATABASE=<database name> #smartlock
+USER=<user of database> 
+PASSWORD=<password of user>
+MONGODB_OPTIONS=readPreference=primary&ssl=false 
+JWT_SECRET_KEY=<random string>
